@@ -1,0 +1,43 @@
+{
+    "name": "epwiki-theme",
+    "displayName": "Epwiki Theme",
+    "description": "Epwiki Theme Official. A dark theme for Visual Studio Code.",
+    "version": "0.0.1",
+    "publisher": "Epwiki",
+    "bugs": {
+        "url": "https://github.com/epwiki/vscode-epwiki-theme/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/epwiki/vscode-epwiki-theme"
+    },
+    "keywords": [
+        "theme",
+        "dark",
+        "epwiki",
+        "epwikiTheme",
+        "epwiki Theme",
+        "epwiki server",
+        "Code"
+    ],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#261c1e",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Epwiki Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/epwiki-theme.json"
+            }
+        ]
+    }
+}
